@@ -29,7 +29,6 @@ const mangHinhMayTinhStyles = StyleSheet.create({
         flex: 1,
         flexDirection: "row",
         borderColor: "black",
-        // borderBottomWidth: 2,
     },
     cell: {
         backgroundColor: '#F0F8FF',

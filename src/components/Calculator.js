@@ -18,6 +18,7 @@ const Calculator = () => {
         "*": "×",
         "/": "÷",
     };
+    
     const handleCellPress = (value) => {
         const LE_QE = 0;
         if (calculatorState === "result" && value !== "AC") {

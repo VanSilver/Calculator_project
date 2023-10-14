@@ -28,7 +28,7 @@ const App = () => {
 
   // phần khai báo cho modal facebook
   const [facebookModalVisible, setFacebookModalVisible] = useState(false);
-  const [facebookProfileLink, setFacebookProfileLink] = useState(""); // Thêm state này
+  const [facebookProfileLink, setFacebookProfileLink] = useState("");
 
   const shuffleArray = (array) => {
     let shuffled = [...array];
@@ -56,7 +56,10 @@ const App = () => {
     <Animated.View style={[styles.item, { transform: [{ scale: index === 0 ? animatedScale : 1 }] }]}>
       {/* dẫn đường dẫn online */}
       {/* <Image source={{ uri: item.image }} style={styles.itemImage} />  */}
+      
+      {/* dẫn đường dẫn cục bộ */}
       <Image source={require('./src/assets/images/Logo_Dai_hoc_Can_Tho.png')} style={styles.itemImage} />
+
       <TouchableOpacity onPress={() => handleNamePress(item.name)}>
         <View style={styles.itemTextContainer}>
           <Text style={styles.itemText}>{item.name}</Text>

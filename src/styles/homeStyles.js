@@ -10,7 +10,6 @@ const styles = StyleSheet.create({
     flatList: {
       flex: 1,
     },
-  
     item: {
       backgroundColor: 'lightblue',
       padding: 28,
@@ -35,7 +34,6 @@ const styles = StyleSheet.create({
       flexDirection: 'column',
       alignItems: 'flex-start',
     },
-  
     itemText: {
       color: 'black',
       fontSize: 28,
@@ -46,38 +44,11 @@ const styles = StyleSheet.create({
       color: 'black',
       fontSize: 25,
     },
-  
-    headerContainer: {
-      backgroundColor: 'blue',
-      width: '100%',
-      paddingVertical: 20,
-      justifyContent: 'center',
-      alignItems: 'center',
-    },
-  
-    header: {
-      fontSize: 30,
-      fontWeight: 'bold',
-      color: 'white',
-    },
-  
-    topRow: {
-      flexDirection: 'row',
-      justifyContent: 'center',
-      width: '100%',
-      height: '10%',
-    },
-    bottomRow: {
-      flexDirection: 'column',
-      justifyContent: 'center',
-      width: '150%',
-      height: '20%',
-    },
     modalContainer: {
       flex: 1,
       justifyContent: 'space-around',
       alignItems: 'center',
-      backgroundColor: 'rgba(250, 250, 250, 0.9)', // Màu nền xám xuyên qua màn hình chính
+      backgroundColor: 'rgba(250, 250, 250, 0.9)',
       padding: 28,
     },
     modalTitle: {
