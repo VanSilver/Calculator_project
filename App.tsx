@@ -21,7 +21,7 @@ const ItemSeparator = () => {
 };
 
 const App = () => {
-  const [index, setIndex] = useState(0);
+  const [index, setIndex] = useState(false);
   const [refreshing, setRefreshing] = useState(false);
   const [shuffledData, setShuffledData] = useState(allData);
   const animatedScale = useRef(new Animated.Value(1)).current;

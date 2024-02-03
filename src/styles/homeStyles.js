@@ -17,18 +17,15 @@ const styles = StyleSheet.create({
       flexDirection: 'row',
       alignItems: 'flex-start',
     },
-  
     separator: {
       height: 2,
       backgroundColor: 'black', // Màu của phần tách
     },
-  
     itemImage: {
       width: 70,
       height: 70,
       marginRight: 1,
     },
-  
     itemTextContainer: {
       flex: 1,
       flexDirection: 'column',
